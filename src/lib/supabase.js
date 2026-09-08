@@ -5,7 +5,7 @@ const supabaseAnonKey = 'sb_publishable__aq7CY46fCXpPc22IuFukA__Jh4npen'
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
-export const TMDB_API_KEY = import.meta.env.VITE_TMDB_API_KEY || ''
+export const TMDB_API_KEY = '5a6e0b386f2594eaef66408b19e50657'
 export const TMDB_BASE = 'https://api.themoviedb.org/3'
 export const TMDB_IMG = 'https://image.tmdb.org/t/p'
 export const SITE_URL = window.location.origin
